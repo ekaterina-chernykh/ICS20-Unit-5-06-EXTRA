@@ -40,7 +40,7 @@ class Program
         {
             Console.WriteLine("The result is: -" + result.ToString("0.0"));
         }
-        else 
+        else
         {
             Console.WriteLine("The result is: " + result.ToString("0.0"));
         }
