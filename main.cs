@@ -30,8 +30,7 @@ class Program
         Console.WriteLine(" ");
         value1pos = Math.Abs(value1);
         value2pos = Math.Abs(value2);
-      
-        while (counter < value2pos) 
+        while (counter < value2pos)
         {
             result = result + value1pos;
             counter = counter + 1;
@@ -41,8 +40,9 @@ class Program
         {
             Console.WriteLine("The result is: -" + result.ToString("0.0"));
         }
-        else {
-            Console.WriteLine("The result is: " + result.ToString("0.0")); 
+        else 
+        {
+            Console.WriteLine("The result is: " + result.ToString("0.0"));
         }
         Console.WriteLine(" ");
         Console.WriteLine("\nDone.");
